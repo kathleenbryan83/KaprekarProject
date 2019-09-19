@@ -23,10 +23,11 @@ public class KaprekarUtils {
 	 * <code>false</code> otherwise.
 	 */
 	public static boolean isKaprekar(int n) {
-		
+
 		if(n < 1); {
-			return 0;
+			return false;
 		} 
+		else {
 		
 		//we use a long to accommodate larger squares
 		long square = n * n;
@@ -44,6 +45,7 @@ public class KaprekarUtils {
 		}
 		return false;
 		
+	}
 	}
 	
 }
