@@ -40,7 +40,7 @@ public class KaprekarUtils {
 			first = square / modulus;
 			second = square % modulus;
 			if(first > 0 &&
-			   first + second == n) {
+			   n == first + second) {
 				return true;
 			}
 		}
