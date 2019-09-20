@@ -31,7 +31,7 @@ public class TestKaprekarUtils {
 	/**
 	 * Array of all Kaprekar Numbers up to 100,000
 	 */
-	public static final List<Integer> KAPREKAR_NUMBERS = Arrays.asList(1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879, 4950, 5050, 5292, 7272, 7777, 9999, 17344, 22222, 38962, 77778, 82656, 95121, 99999);
+	public static final List<Integer> KAPREKAR_NUMBERS = Arrays.asList(1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879, 4950, 5050, 7272, 7777, 9999, 17344, 22222, 38962, 77778, 82656, 95121, 99999);
 	/**
 	 * The maximum value supported by this test suite
 	 */
